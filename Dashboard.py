@@ -5,7 +5,7 @@ import streamlit as st
 
 #Load Hr Dataset
 
-df =pd.read_csv('C:/Users/hites/Desktop/HRDataset_v14.csv')
+df =pd.read_csv('HRDataset_v14.csv')
 st.set_page_config(page_title= "HR Dashboard", layout="centered")
 
 
@@ -111,5 +111,6 @@ with right_col:
 
 st.balloons()
 st.snow()
+
 
 
